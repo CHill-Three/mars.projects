@@ -1,0 +1,65 @@
+.data
+numOne: .word 14
+numTwo: .word 7
+numThree: .word 11
+numFour: .word 5
+numFive: .word 3
+
+.text
+
+main:
+li $t6, 0 #Initialize $t0 to 0. This will be your counter (index).
+li $t7, 5 # Initialize $t7 to 5. This will be your counter end point.
+
+lw $t0, numOne #Loads $t0 with numOne
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numTwo #Loads $t0 with numTwo
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numThree #Loads $t0 with numThree
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numFour #Loads $t0 with numFour
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numFive #Loads $t0 with numFive
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+jal Calc
+
+Calc:
+addi $sp, $sp, -4 # push Calc's $ra to the stack
+jal Cube # Cube Number
+lw $ra, 0($sp) # retrieve Calc's $ra from the stack
+jal Sum # Add Sum
+addi $sp, $sp, 4 # Go forward one address
+addi $t6, $t6, 1 # increment  counter (index)
+bne $t6, $t7 Calc # restart loop
+
+j Done
+
+Cube:
+addi $sp, $sp, 4 # Go forward one address
+lw $t1, 0($sp) #Load $t1 with stack input
+mul $t2, $t1, $t1 # multi $t1 by $t1 -> store $t2
+mul $t2, $t2, $t1 # multi $t2 by $t1
+jr $ra
+
+Sum:
+add $t3, $t3, $t2 #Adds t2 into t3
+jr $ra
+
+Done:
+# Displaying Internal Values
+li $v0, 1
+move $a0, $t3
+syscall
+
+li $v0, 10
+syscall # terminate the program

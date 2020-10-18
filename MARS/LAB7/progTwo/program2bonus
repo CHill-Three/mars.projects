@@ -1,0 +1,170 @@
+#BONUS
+.data
+# FOR $t3 VALUES (ORIGINAL)
+numOne: .word 14
+numTwo: .word 7
+numThree: .word 11
+numFour: .word 5
+numFive: .word 3
+# FOR $t4 VALUES (2nd Five Values)
+numSix: .word 2
+numSeven: .word 1
+numEight: .word 4
+numNine: .word 6
+numTen: .word 8
+# FOR $t5 VALUES (3rd Five Values)
+numEleven: .word 13
+numTwelve: .word 15
+numThirteen: .word 12
+numFourteen: .word 9
+numFifteen: .word 10
+
+.text
+
+main:
+li $t6, 0 #Initialize $t6 to 0. This will be your counter (index).
+li $t7, 15 # Initialize $t7 to 5. This will be your counter end point.
+
+lw $t0, numOne #Loads $t0 with numOne
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numTwo #Loads $t0 with numTwo
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numThree #Loads $t0 with numThree
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numFour #Loads $t0 with numFour
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numFive #Loads $t0 with numFive
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+
+lw $t0, numSix #Loads $t0 with numSix
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numSeven #Loads $t0 with numSeven
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numEight #Loads $t0 with numEight
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numNine #Loads $t0 with numNine
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numTen #Loads $t0 with numTen
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+
+lw $t0, numEleven #Loads $t0 with numEleven
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numTwelve #Loads $t0 with numTwelve
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numThirteen #Loads $t0 with numThirteen
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numFourteen #Loads $t0 with numFourteen
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+lw $t0, numFifteen #Loads $t0 with numFifteen
+addi $sp, $sp, -4 #Moves stack down
+sw $t0, 0($sp) #Load $to into stack
+#-------------------------------------
+
+jal CalcThree
+
+CalcThree:
+addi $sp, $sp, -4 # push Calc's $ra to the stack
+jal Cube # Cube Number
+lw $ra, 0($sp) # retrieve Calc's $ra from the stack
+jal SumThree # Add Sum
+addi $sp, $sp, 4 # Go forward one address
+addi $t6, $t6, 1 # increment  counter (index)
+bne $t6, 5, CalcThree # restart loop
+
+jal CalcTwo
+
+CalcTwo:
+addi $sp, $sp, -4 # push Calc's $ra to the stack
+jal Cube # Cube Number
+lw $ra, 0($sp) # retrieve Calc's $ra from the stack
+jal SumTwo # Add Sum
+addi $sp, $sp, 4 # Go forward one address
+addi $t6, $t6, 1 # increment  counter (index)
+bne $t6, 10, CalcTwo # restart loop
+
+jal Calc
+
+Calc:
+addi $sp, $sp, -4 # push Calc's $ra to the stack
+jal Cube # Cube Number
+lw $ra, 0($sp) # retrieve Calc's $ra from the stack
+jal Sum # Add Sum
+addi $sp, $sp, 4 # Go forward one address
+addi $t6, $t6, 1 # increment  counter (index)
+bne $t6, $t7 Calc # restart loop
+
+j Done
+
+Cube:
+addi $sp, $sp, 4 # Go forward one address
+lw $t1, 0($sp) #Load $t1 with stack input
+mul $t2, $t1, $t1 # multi $t1 by $t1 -> store $t2
+mul $t2, $t2, $t1 # multi $t2 by $t1
+jr $ra
+
+SumThree:
+add $t5, $t5, $t2 #Adds t2 into t3
+jr $ra
+
+SumTwo:
+add $t4, $t4, $t2 #Adds t2 into t3
+jr $ra
+
+Sum:
+add $t3, $t3, $t2 #Adds t2 into t3
+jr $ra
+
+Done:
+# Displaying Internal Values
+li $v0, 1
+move $a0, $t3 #DISPLAYING: 1st five numbers in .data
+syscall
+
+# Displaying Space
+li $a0, 32
+li $v0, 11  # syscall number for printing character
+syscall
+
+li $v0, 1
+move $a0, $t4 #DISPLAYING: 2nd five numbers in .data
+syscall
+
+# Displaying Space
+li $a0, 32
+li $v0, 11  # syscall number for printing character
+syscall
+
+li $v0, 1
+move $a0, $t5 #DISPLAYING: 3rd five numbers in .data
+syscall
+
+li $v0, 10
+syscall # terminate the program
