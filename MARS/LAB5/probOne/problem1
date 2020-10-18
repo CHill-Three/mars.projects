@@ -1,0 +1,16 @@
+.text
+main: 
+li $t0,47 #47 = X
+li $t1,253 #253 = Y
+li $t2,23 #23 = Z
+
+li $t4,3 #$t4 = 3
+li $t5,10 #$t5 = 10
+mul $t6,$t0,$t0 #$t4 = 47^2
+mul $t7,$t4,$t1 #$t7 = 3(y)
+mul $t8,$t5,$t2 #$t8 = 10(z)
+add $t9,$t6,$t7 #$t9 = 47^2 + 3(253)
+add $t3,$t9,$t8 #$t3 = (x^2 + 3y) + 10(z)
+
+li $v0,10
+syscall
