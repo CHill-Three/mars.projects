@@ -37,5 +37,22 @@ This is a list of my completed starter projects utilizing MARS 4.5. Projects wer
 ### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1"></a>
 ![prog.PNG](/mips.github.io/MARS/LAB5/probOne/prog.PNG)<br/>
 Resources for - Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1<br/>
-[Code for Problem 1 (One)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB5/probOne/problem1)<br/>
+[Code for Week 1 - Problem 1 (One)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB5/probOne/problem1)<br/>
 
+<!-- Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2 (SUB-PARA) -->
+### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2"></a>
+![prog2.PNG](/mips.github.io/MARS/LAB5/probTwo/prog2.PNG)<br/>
+Resources for - Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2<br/>
+[Code for Week 1 - Problem 2 (Two)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB5/probTwo/problem2)<br/>
+
+<!-- Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3 (SUB-PARA) -->
+### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3"></a>
+![prog3.PNG](/mips.github.io/MARS/LAB5/probThree/prog3.PNG)<br/>
+Resources for - Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3<br/>
+[Code for Week 1 - Problem 3 (Three)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB5/probThree/problem3)<br/>
+
+<!-- Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1 (SUB-PARA) -->
+### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1"></a>
+![prog1.PNG](/mips.github.io/MARS/LAB6/progOne/prog1.PNG)<br/>
+Resources for - Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1<br/>
+[Code for Week 2 - Problem 1 (One)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB6/progOne/problem1)<br/>
