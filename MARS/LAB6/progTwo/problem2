@@ -1,0 +1,31 @@
+.data
+    phrase1:  .asciiz "Phrase 1: "
+    phrase2:  .asciiz "Phrase 2: "
+.text
+main:
+# User inputOne as text
+li $a0, 0x10010020
+la $a1, 20
+li $v0, 8
+syscall
+# User inputTwo as text
+li $a0, 0x10010040
+la $a1, 20
+li $v0, 8
+syscall
+# Displaying Phrase 1
+li $v0, 4
+la $a0, phrase1
+syscall
+# Displaying user inputOne
+li $v0, 4
+la $a0, 0x10010020
+syscall
+# Displaying Phrase 2
+li $v0, 4
+la $a0, phrase2
+syscall
+# Displaying user inputOne
+li $v0, 4
+la $a0, 0x10010040
+syscall
