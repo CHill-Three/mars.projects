@@ -1,0 +1,17 @@
+.text
+main: 
+li $t0,82 #Load 82 into $t0
+li $t1,45 #Load 45 into $t1
+li $t4,25 #Load 25 into $t4
+li $t7,126 #Load 126 into $t7
+
+add $t5,$t0,$t1 #Add the contents of registers $t0 and $t1; store in $t5. 
+add $t3,$t4,$t7 #Add the contents of registers $t4 and $t7; store in $t3. 
+
+mul $t9,$t3,$t5 #Multiply the contents of $t3 by the contents of $t5; store in $t9.
+
+move $s5,$t9 #Store the result in $t9 in $s5
+move $s7,$t9 #Store the result in $t9 in $s7
+
+li $v0,10
+syscall
