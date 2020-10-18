@@ -1,0 +1,21 @@
+.text
+main: 
+li $t0,291 #$t0 for x -> Variable x is 0x123
+li $t1,4791 #$t1 for y -> Variable y is 0x12b7
+li $t2,215799 #$t2 for z -> Variable z is 0x34af7
+
+li $t3,4 #Temp Var (4) used in eq
+li $t4,8 #Temp Var (8) used in eq
+
+mul $t5,$t0,$t0 #x^2 = $t5
+mul $t6,$t5,$t3 #4(x^2) = $t6
+
+mul $t7,$t1,$t4 #8(4791) = $t7
+
+add $t8,$t6,$t7 #$t8 = 4(x^2) + 8(y)
+add $t9,$t8,$t2 #$t9 = $t8 (4(x^2) + 8(y)) + z
+
+move $s0,$t9 #$t9 = w -> Store w in $s0
+
+li $v0,10
+syscall
