@@ -35,51 +35,51 @@ This is a list of my completed starter projects utilizing MARS 4.5. Projects wer
 
 <!-- Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1 (SUB-PARA) -->
 ### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1"></a>
-![prog.PNG](/mips.github.io/MARS/LAB5/probOne/prog.PNG)<br/>
+![prog.PNG](/mars.github.io/MARS/LAB5/probOne/prog.PNG)<br/>
 Resources for - Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1<br/>
-[Code for Week 1 - Problem 1 (One)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB5/probOne/problem1)<br/>
+[Code for Week 1 - Problem 1 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB5/probOne/problem1)<br/>
 
 <!-- Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2 (SUB-PARA) -->
 ### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2"></a>
-![prog2.PNG](/mips.github.io/MARS/LAB5/probTwo/prog2.PNG)<br/>
+![prog2.PNG](/mars.github.io/MARS/LAB5/probTwo/prog2.PNG)<br/>
 Resources for - Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2<br/>
-[Code for Week 1 - Problem 2 (Two)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB5/probTwo/problem2)<br/>
+[Code for Week 1 - Problem 2 (Two)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB5/probTwo/problem2)<br/>
 
 <!-- Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3 (SUB-PARA) -->
 ### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3"></a>
-![prog3.PNG](/mips.github.io/MARS/LAB5/probThree/prog3.PNG)<br/>
+![prog3.PNG](/mars.github.io/MARS/LAB5/probThree/prog3.PNG)<br/>
 Resources for - Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3<br/>
-[Code for Week 1 - Problem 3 (Three)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB5/probThree/problem3)<br/>
+[Code for Week 1 - Problem 3 (Three)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB5/probThree/problem3)<br/>
 
 
 <!-- Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1 (SUB-PARA) -->
 ### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1"></a>
-![prog1.PNG](/mips.github.io/MARS/LAB6/progOne/prog1.PNG)<br/>
+![prog1.PNG](/mars.github.io/MARS/LAB6/progOne/prog1.PNG)<br/>
 Resources for - Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1<br/>
-[Code for Week 2 - Problem 1 (One)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB6/progOne/problem1)<br/>
+[Code for Week 2 - Problem 1 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB6/progOne/problem1)<br/>
 
 <!-- Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2 (SUB-PARA) -->
 ### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2"></a>
-![prog2.PNG](/mips.github.io/MARS/LAB6/progTwo/prog2.PNG)<br/>
+![prog2.PNG](/mars.github.io/MARS/LAB6/progTwo/prog2.PNG)<br/>
 Resources for - Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2<br/>
-[Code for Week 2 - Problem 2 (One)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB6/progTwo/problem2)<br/>
+[Code for Week 2 - Problem 2 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB6/progTwo/problem2)<br/>
 
 <!-- Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3 (SUB-PARA) -->
 ### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3"></a>
-![prog3.PNG](/mips.github.io/MARS/LAB6/progThree/prog3.PNG)<br/>
+![prog3.PNG](/mars.github.io/MARS/LAB6/progThree/prog3.PNG)<br/>
 Resources for - Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3<br/>
-[Code for Week 2 - Problem 3 (One)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB6/progThree/problem3)<br/>
+[Code for Week 2 - Problem 3 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB6/progThree/problem3)<br/>
 
 
 <!-- Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1 (SUB-PARA) -->
 ### Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1 <a name="Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1"></a>
-![prog1.PNG](/mips.github.io/MARS/LAB7/progOne/prog1.PNG)<br/>
+![prog1.PNG](/mars.github.io/MARS/LAB7/progOne/prog1.PNG)<br/>
 Resources for - Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1<br/>
-[Code for Week 3 - Problem 1 (One)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB7/progOne/program1)<br/>
+[Code for Week 3 - Problem 1 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB7/progOne/program1)<br/>
 
 <!-- Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2 (SUB-PARA) -->
 ### Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2 <a name="Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2"></a>
-![prog2.PNG](/mips.github.io/MARS/LAB7/progTwo/prog2.PNG)<br/>
+![prog2.PNG](/mars.github.io/MARS/LAB7/progTwo/prog2.PNG)<br/>
 Resources for - Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2<br/>
-[Code for Week 3 - Problem 2 (Two) (Regular)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB7/progTwo/program2)<br/>
-[Code for Week 3 - Problem 2 (Two) (Bonus)](https://github.com/CHill-Three/mips.github.io/blob/master/MARS/LAB7/progTwo/program2bonus)<br/>
+[Code for Week 3 - Problem 2 (Two) (Regular)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB7/progTwo/program2)<br/>
+[Code for Week 3 - Problem 2 (Two) (Bonus)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB7/progTwo/program2bonus)<br/>
