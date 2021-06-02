@@ -3,8 +3,7 @@
 
 <!-- Title -->
 # CHill-Three's github.io MARS 4.5 Page
-Hey there! Welcome to my MARS 4.5 projects repository created on (10/18/2020)<br/>
-I hope you enjoy looking around!<br/>
+Hey there! Welcome to my MARS 4.5 projects repository created on October 18, 2020.<br/>
 <!-- Table of Contents (TITLES) -->
 
 <!-- Home Button (Home) -->
@@ -31,7 +30,7 @@ I hope you enjoy looking around!<br/>
 
 <!-- MARS 4.5 Starter Projects -->
 ## MARS 4.5 Starter Projects <a name="MATLAB Starter Projects"></a>
-This is a list of my completed starter projects utilizing MARS 4.5. Projects were used to receive credit from an educational institution.
+MARS 4.5 is a free educational resource focusing on microprocessor without interlocked pipelined stages (MIPS) programming, where users can create and/or modify their assembly language code. This is a list of my completed starter projects utilizing MARS 4.5. Projects were used to receive credit from an educational institution. I hope you enjoy!
 
 <!-- Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1 (SUB-PARA) -->
 ### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1"></a>
