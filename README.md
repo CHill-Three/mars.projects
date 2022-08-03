@@ -1,38 +1,20 @@
-<!-- Quick Notes -->
-<!-- 1). To break lines: do two spaces after the line or do <br/> -->
-
-<!-- Title -->
-# CHill-Three's github.io MARS 4.5 Page
-Hey there! Welcome to my MARS 4.5 projects repository created on October 18, 2020.<br/>
+## CHill-Three's github.io MARS 4.5 Page
+Welcome to my MARS 4.5 projects repository created on October 18, 2020. MARS 4.5 is a free educational resource focusing on microprocessor without interlocked pipelined stages (MIPS) programming, where users can create and/or modify their assembly language code. This is a list of my completed starter projects utilizing MARS 4.5. Thank you for your time!
 <!-- Table of Contents (TITLES) -->
 
-<!-- Home Button (Home) -->
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 2px solid black;
-        }
-</style>
-| :-: |
-| [Back to Homepage](https://chill-three.github.io/) |
-{: .tablelines}
+## My Main Projects (Section One: Vivado Starter Projects)
+<!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+## [Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1](https://github.com/CHill-Three/mars.projects/blob/master/MARS/LAB5/probOne/problem1)
 
-# Table of contents
-1. [MARS 4.5 Starter Projects](#MARS 4.5 Starter Projects)<br/>
-  I - 1. [Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1](#Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1)<br/>
-  I - 2. [Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2](#Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 2)<br/>
-  I - 3. [Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3](#Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3)<br/>
-  II - 1. [Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1](#Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1)<br/>
-  II - 2. [Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2](#Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2)<br/>
-  II - 3. [Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3](#Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3)<br/>
-  III - 1. [Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1](#Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1)<br/>
-  III - 2. [Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2](#Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2)<br/>
-<!-- Table of Contents (BODY) -->
+### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1"></a>
 
-<!-- MARS 4.5 Starter Projects -->
-## MARS 4.5 Starter Projects <a name="MATLAB Starter Projects"></a>
-MARS 4.5 is a free educational resource focusing on microprocessor without interlocked pipelined stages (MIPS) programming, where users can create and/or modify their assembly language code. This is a list of my completed starter projects utilizing MARS 4.5. Projects were used to receive credit from an educational institution. I hope you enjoy!
+![problemOne](https://github.com/CHill-Three/mars.projects/blob/master/MARS/LAB5/probOne/prog.PNG?raw=true "problemOne")
 
-<!-- Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1 (SUB-PARA) -->
+#### Description: 
+Program One asks the following: (Write a program on your computer to do the following:
+Enter 47 into $t0 ("x"), Put 253 into $t1 (“y”), Load 23 in $t2 (“2”), Compute x2 + 3y + 10z, Store the result in $t3, Stop the program by using system call 10. Questions: What is the number in $t3 in hex? In decimal?) Follow the title link embedded for the code used in this project file.
+<!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 ### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1"></a>
 ![prog.PNG](/mars.github.io/MARS/LAB5/probOne/prog.PNG)<br/>
 Resources for - Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 1<br/>
