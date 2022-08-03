@@ -24,12 +24,15 @@ Enter 47 into $t0 ("x"), Put 253 into $t1 (“y”), Load 23 in $t2 (“2”), C
 Program Two asks the following: (Write a program to do the following: Load 82 in $t0 and 45 into $t1, Load 25 in $t4 and 126 into $t7, Add the contents of registers $t0 and $t1; store in $t5, Add the contents of registers $t4 and $t7; store in $t3, Multiply the contents of $t3 by the contents of $t5; store
 in $t9, Store the result in $t9 in $55 and $57, Use syscall 10 to end the program. Questions: What is the value of the number in $s7 in hex? In decimal?). Follow the title link embedded for the code used in this project file.
 <!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+## [Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3](https://github.com/CHill-Three/mars.projects/blob/master/MARS/LAB5/probThree/problem3)
 
-<!-- Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3 (SUB-PARA) -->
 ### Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3 <a name="Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3"></a>
-![prog3.PNG](/mars.github.io/MARS/LAB5/probThree/prog3.PNG)<br/>
-Resources for - Project 1: Introduction to MIPS Assembly Using the MARS Simulator - Problem 3<br/>
-[Code for Week 1 - Problem 3 (Three)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB5/probThree/problem3)<br/>
+
+![programThree](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB5/probThree/prog3.PNG?raw=true "programThree")
+
+#### Description: 
+Program Three asks the following: (Write a program to solve the equation: w = 4x^2+8y+z, Variable x is 0x123, y is 0x12b7, and z is 0x34af7, Use $t0 for x, $t1 for y, and $t2 for z, Remember to start your program with .text and label the first instruction as “main:”, Store w in $50 and end your program with syscall 10. Questions: What is the value of w in hex? In decimal?). Follow the title link embedded for the code used in this project file.
+<!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
 <!-- Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1 (SUB-PARA) -->
