@@ -33,36 +33,48 @@ in $t9, Store the result in $t9 in $55 and $57, Use syscall 10 to end the progra
 #### Description: 
 Program Three asks the following: (Write a program to solve the equation: w = 4x^2+8y+z, Variable x is 0x123, y is 0x12b7, and z is 0x34af7, Use $t0 for x, $t1 for y, and $t2 for z, Remember to start your program with .text and label the first instruction as “main:”, Store w in $50 and end your program with syscall 10. Questions: What is the value of w in hex? In decimal?). Follow the title link embedded for the code used in this project file.
 <!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+## [Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 4](https://github.com/CHill-Three/mars.projects/blob/master/MARS/LAB6/progOne/problem1)
 
+### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 4 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 4"></a>
 
-<!-- Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1 (SUB-PARA) -->
-### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1"></a>
-![prog1.PNG](/mars.github.io/MARS/LAB6/progOne/prog1.PNG)<br/>
-Resources for - Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 1<br/>
-[Code for Week 2 - Problem 1 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB6/progOne/problem1)<br/>
+![programFour](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB6/progOne/prog1.PNG?raw=true "programFour")
 
-<!-- Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2 (SUB-PARA) -->
-### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2"></a>
-![prog2.PNG](/mars.github.io/MARS/LAB6/progTwo/prog2.PNG)<br/>
-Resources for - Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 2<br/>
-[Code for Week 2 - Problem 2 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB6/progTwo/problem2)<br/>
+#### Description: 
+Program Four asks the following: Follow the title link embedded for the code used in this project file.
+<!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+## [Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 5](https://github.com/CHill-Three/mars.projects/blob/master/MARS/LAB6/progTwo/problem2)
 
-<!-- Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3 (SUB-PARA) -->
-### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3"></a>
-![prog3.PNG](/mars.github.io/MARS/LAB6/progThree/prog3.PNG)<br/>
-Resources for - Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 3<br/>
-[Code for Week 2 - Problem 3 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB6/progThree/problem3)<br/>
+### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 5 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 5"></a>
 
+![programFive](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB6/progTwo/prog2.PNG?raw=true "programFive")
 
-<!-- Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1 (SUB-PARA) -->
-### Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1 <a name="Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1"></a>
-![prog1.PNG](/mars.github.io/MARS/LAB7/progOne/prog1.PNG)<br/>
-Resources for - Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 1<br/>
-[Code for Week 3 - Problem 1 (One)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB7/progOne/program1)<br/>
+#### Description: 
+Program Five asks the following: Follow the title link embedded for the code used in this project file.
+<!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+## [Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 6]()
 
-<!-- Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2 (SUB-PARA) -->
-### Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2 <a name="Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2"></a>
-![prog2.PNG](/mars.github.io/MARS/LAB7/progTwo/prog2.PNG)<br/>
-Resources for - Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 2<br/>
-[Code for Week 3 - Problem 2 (Two) (Regular)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB7/progTwo/program2)<br/>
-[Code for Week 3 - Problem 2 (Two) (Bonus)](https://github.com/CHill-Three/mars.github.io/blob/master/MARS/LAB7/progTwo/program2bonus)<br/>
+### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 6 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 6"></a>
+
+![programSix](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB6/progThree/prog3.PNG?raw=true "programSix")
+
+#### Description: 
+Program Six asks the following: Follow the title link embedded for the code used in this project file.
+<!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+## [Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 7](https://github.com/CHill-Three/mars.projects/blob/master/MARS/LAB7/progOne/program1)
+
+### Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 7 <a name="Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 7"></a>
+
+![programSeven](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB7/progOne/prog1.PNG?raw=true "programSeven")
+
+#### Description: 
+Program Seven asks the following: Follow the title link embedded for the code used in this project file.
+<!-- DIVIDER ---------------------------------------------------------------------------------------------------------------------------------------------------------->
+## [Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 8](https://github.com/CHill-Three/mars.projects/blob/master/MARS/LAB7/progTwo/program2)
+
+### Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 8 <a name="Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 8"></a>
+
+![programEight](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB7/progTwo/prog2.PNG?raw=true "programEight")
+
+#### Description: 
+Program Eight asks the following: Follow the title link embedded for the regular code used in this project file.
+[Link for bonus code used in Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 8](https://github.com/CHill-Three/mars.projects/blob/master/MARS/LAB7/progTwo/program2bonus) 
