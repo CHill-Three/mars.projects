@@ -37,7 +37,7 @@ Program Three asks the following: (Write a program to solve the equation: w = 4x
 
 ### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 4 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 4"></a>
 
-![programFour](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB6/progOne/prog1.PNG?raw=true "programFour")
+<!--![programFour](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB6/progOne/prog1.PNG?raw=true "programFour")-->
 
 #### Description: 
 Program Four asks the following: Follow the title link embedded for the code used in this project file.
@@ -46,7 +46,7 @@ Program Four asks the following: Follow the title link embedded for the code use
 
 ### Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 5 <a name="Project 2: Introduction to MIPS Assembly Using the MARS Simulator (Week 2) - Problem 5"></a>
 
-![programFive](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB6/progTwo/prog2.PNG?raw=true "programFive")
+<!--![programFive](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB6/progTwo/prog2.PNG?raw=true "programFive")-->
 
 #### Description: 
 Program Five asks the following: Follow the title link embedded for the code used in this project file.
@@ -73,7 +73,7 @@ Program Seven asks the following: Follow the title link embedded for the code us
 
 ### Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 8 <a name="Project 3: Introduction to MIPS Assembly Using the MARS Simulator (Week 3) - Problem 8"></a>
 
-![programEight](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB7/progTwo/prog2.PNG?raw=true "programEight")
+<!-- ![programEight](https://raw.githubusercontent.com/CHill-Three/mars.projects/master/MARS/LAB7/progTwo/prog2.PNG?raw=true "programEight")-->
 
 #### Description: 
 Program Eight asks the following: Follow the title link embedded for the regular code used in this project file.
